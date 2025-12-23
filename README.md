@@ -5,6 +5,7 @@ A modern WPF application for searching and displaying Pokémon data from the Pok
 > [!IMPORTANT]
 > **Local API Environment Required**
 > This application **requires** a local instance of the PokeAPI to function correctly. The search functionality utilizes complex queries that are disabled or rate-limited on the public online API (`pokeapi.co`) to maintain performance. You must run the API via Docker as described in the "Getting Started" section below.
+<img width="800" height="800" alt="image" src="https://github.com/user-attachments/assets/2400e3d8-1bea-4141-9a09-5579dcc8f3cb" />
 
 ## Features
 
