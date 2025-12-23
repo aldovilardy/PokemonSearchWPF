@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="PokeApiNet/PokeApiNet.csproj" />
+  <Project Path="PokemonSearchWPF/PokemonSearchWPF.csproj" />
+</Solution>

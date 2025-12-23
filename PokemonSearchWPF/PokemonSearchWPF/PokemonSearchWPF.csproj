@@ -1,0 +1,53 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+  	<None Remove="Assets\exit.png" />
+  	<None Remove="Assets\HomepageBaukasten-Book.ttf" />
+  	<None Remove="Assets\minimize.png" />
+  	<None Remove="Assets\missingno.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Remove="Assets\ScrollbarStyleDictionary.xaml" />
+    <Page Remove="Assets\Styles.xaml" />
+  </ItemGroup>
+	
+  <ItemGroup>
+    <ProjectReference Include="..\PokeApiNet\PokeApiNet.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+	<Resource Include="Assets\exit.png">
+	  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	</Resource>
+	<Resource Include="Assets\HomepageBaukasten-Book.ttf">
+	  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	</Resource>
+	<Resource Include="Assets\minimize.png">
+	  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	</Resource>
+	<Resource Include="Assets\missingno.png">
+	  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	</Resource>
+	<Resource Include="Assets\NeitherlyDemoLight.ttf">
+	  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	</Resource>
+	<Resource Include="Assets\NeitherlyDemoScript.ttf">
+	  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	</Resource>
+	<Resource Include="Assets\pokeball.png">
+	  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	</Resource>
+	<Resource Include="Assets\ScrollbarStyleDictionary.xaml" />
+	<Resource Include="Assets\Styles.xaml" />
+  </ItemGroup>
+
+</Project>
